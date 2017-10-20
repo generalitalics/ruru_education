@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 
 
 public class Lesson1Task1 {
-    public static void vacancyGeneration(String s, int i, byte b, short sh, long l, boolean bl, double d, float f) {
+    public static void vacancyGeneration(String s, int i, byte b, short sh, long l, boolean bl, double d, float f, char ch) {
         System.out.println("\nСрочно! Требуется адекватный человек для работы с системой будующего СУН2.0\n" +
                 "Расширяем группу тестирования в в компании " + s + " в Москве.\n" +
                 "Команда тестировния " + s + " занимается функциональным/интеграционным тестированием приложений.\n" +
@@ -20,7 +20,7 @@ public class Lesson1Task1 {
                 "6. Взаимодействие с командами разработки и аналитики;\n" +
                 "7. Подготовка отчетов о выполненной работе;\n\n" +
                 "Требования к вакансии:" + "\n" +
-                "0. Возраст от " + l + "лет(года)\n" +
+                "0. Возраст от " + l + " лет(года)\n" +
                 "1. Опыт работы в тестировании не менее " + i + " лет(года);\n" +
                 "2. Опыт тестирования Desktop приложений от " + sh + " лет(года);\n" +
                 "3. Навыки разработки\\актуализации тестовых сценариев и планов тестирования;\n" +
@@ -30,7 +30,8 @@ public class Lesson1Task1 {
                 "7. Практические навыки работы с OS Windows на уровне администратора;\n" +
                 "8. Опыт работы в 1С-системах от " + b + "лет(года);\n" +
                 "9. Базовые знания сетевых технологий (сетей, протоколов);\n" +
-                "10. Иностранный язык — английский (pre-intermediate – обязательно; разговорный – optional);\n\n" +
+                "10. Наличие водительских прав категории " + ch + " приветствуется;\n" +
+                "11. Иностранный язык — английский (pre-intermediate – обязательно; разговорный – optional);\n\n" +
                 "Условия:\n" +
                 "1. Интересные задачи и возможность присоединиться к команде профессионалов крупнейшей в мире частной антивирусной компании;\n" +
                 "2. Работу в современном комфортном офисе рядом с метро;\n" +
@@ -66,6 +67,8 @@ public class Lesson1Task1 {
         double d = Double.parseDouble(bufferedReader.readLine());
         System.out.print("Ежемесячное выделение средств на мобильную связь: ");
         float f = Float.parseFloat(bufferedReader.readLine());
-        vacancyGeneration(s,i,b,sh,l,bl,d,f);
+        System.out.print("Желательное наличие водительских прав категории: ");
+        char ch = (char)System.in.read();
+        vacancyGeneration(s,i,b,sh,l,bl,d,f,ch);
     }
 }
