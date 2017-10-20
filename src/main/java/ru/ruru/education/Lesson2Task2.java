@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class lesson2Task2 {
+public class Lesson2Task2 {
     public static int minTwo(int a, int b) {
         if (a <= b) {
             return a;
