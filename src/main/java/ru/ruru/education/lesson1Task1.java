@@ -1,14 +1,12 @@
 package ru.ruru.education;
 
-import sun.misc.FloatingDecimal;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 
 
-public class Lesson1 {
+public class lesson1Task1 {
     public static void vacancyGeneration(String s, int i, byte b, short sh, long l, boolean bl, double d, float f) {
         System.out.println("\nСрочно! Требуется адекватный человек для работы с системой будующего СУН2.0\n" +
                 "Расширяем группу тестирования в в компании " + s + " в Москве.\n" +
