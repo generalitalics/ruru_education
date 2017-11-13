@@ -53,11 +53,11 @@ public class Lesson1Task1 {
         System.out.println("Введите параметры для составления текста вакансии специалиста по тестированию СУН2.0:\n");
         System.out.print("Название компании, находящейся в поиске сотрудника: ");
         String s = bufferedReader.readLine();
-        System.out.print("Необходимый стаж в тестировании: ");
+        System.out.print("Необходимый стаж в тестировании(в годах): ");
         int i = Integer.parseInt(bufferedReader.readLine());
-        System.out.print("Необходимый опыт работы в 1С-системах ");
+        System.out.print("Необходимый опыт работы в 1С-системах(в годах): ");
         byte b = Byte.parseByte(bufferedReader.readLine());
-        System.out.print("Необходимый опыт тестирования Desktop приложений: ");
+        System.out.print("Необходимый опыт тестирования Desktop приложений(в годах): ");
         short sh = Short.parseShort(bufferedReader.readLine());
         System.out.print("Возраст сотрудника от: ");
         long l = Long.parseLong(bufferedReader.readLine());
