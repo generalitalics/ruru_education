@@ -1,5 +1,10 @@
 package ru.ruru.education;
 
-public class Dog extends Animal {
+class Dog extends Animal {
 
+    int balls; //колличество сгрызанных мячей
+
+    public void voice() {
+        System.out.println("Собака по кличке " + this.name + " лает: Гав-Гав!");
+    }
 }

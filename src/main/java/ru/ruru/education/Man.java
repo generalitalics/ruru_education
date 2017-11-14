@@ -1,4 +1,8 @@
 package ru.ruru.education;
 
-public class Man extends Human {
+class Man extends Human {
+
+    public static void main(String[] args) {
+
+    }
 }

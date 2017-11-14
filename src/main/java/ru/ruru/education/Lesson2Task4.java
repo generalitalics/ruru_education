@@ -2,13 +2,31 @@ package ru.ruru.education;
 
 public class Lesson2Task4 {
     public static void main(String[] args) {
-        Cat barsik = new Cat();
-        Dog sharik = new Dog();
-        Man vader = new Man();
-        Woman leia = new Woman();
-        barsik.age = 12;
-        barsik.lnTail = 22;
-        System.out.println(barsik.lnTail + barsik.age);
+        Cat cat = new Cat();
+        Dog dog = new Dog();
+        Man man = new Man();
+        Woman woman = new Woman();
 
+        dog.age = 7;
+        dog.name = "Шарик";
+        dog.lnTail = 22;
+
+        cat.age = 6;
+        cat.name = "Шнурок";
+        cat.lnTail = 22;
+
+        man.name = "Вейдер";
+        man.age = 46;
+        man.javaLvl = 3;
+
+        woman.name = "Лея";
+        woman.age = 49;
+        woman.javaLvl = 4;
+
+        System.out.println(cat.lnTail + cat.age);
+        cat.voice();
+        cat.getAge();
+        cat.eat();
+        dog.voice();
     }
 }

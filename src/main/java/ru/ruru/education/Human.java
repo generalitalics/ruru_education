@@ -6,6 +6,6 @@ class Human {
     byte age;     // возраст
     byte height; // высота в см
     byte weight; // вес в кг
-    boolean javaLvl; // умение програмировать на java
+    int javaLvl; // умение програмировать на java
 
 }
