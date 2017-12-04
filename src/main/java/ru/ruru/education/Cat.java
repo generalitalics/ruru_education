@@ -1,8 +1,14 @@
 package ru.ruru.education;
 
-class Cat extends Animal {
+public class Cat extends Animal {
 
-    int glasses; //колличество разитых стаканов
+    int glasses = 0; //колличество разитых стаканов
+
+    Cat(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
 
     void voice() {
         System.out.println("Кошка по кличке " + this.name + " мяукает: Мяу-Мяу!");
