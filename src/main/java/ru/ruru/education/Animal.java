@@ -8,4 +8,8 @@ class Animal {
     byte lnTail; // длина хвоста
     boolean playful; // игривость
 
+    void run() {
+        System.out.println(this.name + ", беги!");
+    }
 }
+

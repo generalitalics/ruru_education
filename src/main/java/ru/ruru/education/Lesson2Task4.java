@@ -1,6 +1,6 @@
 package ru.ruru.education;
 
-public class Lesson2Task4 {
+class Lesson2Task4 {
     public static void main(String[] args) {
         Cat cat = new Cat("Шнурок",12);
         Dog dog = new Dog("Шарик",7);

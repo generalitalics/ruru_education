@@ -1,6 +1,6 @@
 package ru.ruru.education;
 
-public class Cat extends Animal {
+class Cat extends Animal {
 
     int glasses = 0; //колличество разитых стаканов
 
